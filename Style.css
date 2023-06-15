@@ -1,0 +1,61 @@
+/* Apply styles to the header section */
+
+
+.header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .photo img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .author {
+    margin-left: 20px;
+  }
+  
+  .info_box {
+    font-size: 18px;
+  }
+  
+  /* Apply styles to the skills section */
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .skills h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .skills hr {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .skills p {
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Apply styles to the buttons */
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  body {
+  background-color: pink;
+}
